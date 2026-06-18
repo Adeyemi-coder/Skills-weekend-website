@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useAppContext, courses } from '../../context/AppContext';
 import { Navigate } from 'react-router-dom';
 import { 
