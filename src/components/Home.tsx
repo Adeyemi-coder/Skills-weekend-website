@@ -193,9 +193,14 @@ export default function Home() {
             <Link to="/signup" className="px-8 py-4 bg-indigo-600 text-white rounded-full font-medium hover:bg-indigo-700 transition-colors w-full sm:w-auto shadow-sm hover:shadow-md">
               Complete Registration
             </Link>
-            <a href="mailto:contact@fcn.com" className="px-8 py-4 bg-white text-slate-700 rounded-full font-medium border border-slate-200 hover:bg-slate-50 transition-colors w-full sm:w-auto">
-              Contact Coordinators
-            </a>
+             <a 
+    href="https://wa.me/+2347078404830?text=Hello%20I'm%20interested%20in%20your%20skills%20and%20entrepreneurship%20program" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="px-8 py-4 bg-white text-slate-700 rounded-full font-medium border-slate-200 hover:bg-slate-50 transition-colors w-full sm:w-auto"
+  >
+    Contact Coordinators
+  </a>
           </div>
           <p className="mt-16 text-slate-400 text-sm font-medium uppercase tracking-widest">
             We look forward to learning, growing, and building together.
